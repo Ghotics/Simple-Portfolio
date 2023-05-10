@@ -64,7 +64,33 @@ body {
 .about-text{
 	display: flex;
 	align-items: center;
+	flex-wrap: wrap;
 	max-width: 500px;
-	min-width: 100px;
+	min-width: 200px;
 	font-size:25px;
+}
+
+.projects-section{
+	margin-top: 200px;
+}
+
+.projects-title{
+	margin-bottom: 100px;
+	display: flex;
+	justify-content: center;
+}
+
+.projects-cards{
+	padding: 50px;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.project-image{
+	max-width: 30%;
+}
+
+.project-links{
+	display: flex;
+	flex-direction: column;
 }
